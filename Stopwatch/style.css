@@ -1,0 +1,94 @@
+/* General Reset */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #a8e8c3, #3ba5d6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  #myH1 {
+    font-size: 3.5em;
+    font-weight: 700;
+    margin: 0;
+    padding: 10px 0;
+    color: #6b2020;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    background: linear-gradient(90deg, #667c70, #57d1b7, #59635d);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    border-bottom: 2px solid #4c9f70;
+    display: inline-block;
+  }
+  
+  
+  /* Stopwatch Container */
+  #stopwatch-container {
+    background-color: #ffffff;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  #stopwatch-container h1 {
+    margin: 2;
+    font-size: 4em;
+    color: #333;
+  }
+  
+  /* Buttons */
+  #stopwatch-container button {
+    background: #4c9f70;
+    border: none;
+    color: white;
+    font-size: 1.2em;
+    margin: 10px;
+    padding: 10px 20px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  #stopwatch-container button:hover {
+    background: #357a4b;
+    transform: translateY(-2px);
+  }
+  
+  #stopwatch-container button:active {
+    background: #28593a;
+    transform: translateY(0);
+  }
+  
+  /* Specific Button Colors */
+  #stopwatch-container #start {
+    background: #28a745;
+  }
+  
+  #stopwatch-container #stop {
+    background: #dc3545;
+  }
+  
+  #stopwatch-container #reset {
+    background: #ffc107;
+  }
+  
+  #stopwatch-container #start:hover {
+    background: #218838;
+  }
+  
+  #stopwatch-container #stop:hover {
+    background: #c82333;
+  }
+  
+  #stopwatch-container #reset:hover {
+    background: #e0a800;
+  }
+  
